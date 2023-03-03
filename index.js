@@ -48,7 +48,7 @@ function prependCat(name){
     return preCats;
 }
 function removeLastCat(name){
-    const rvmLstCat = cats.slice(0, cats.length - 1);
+    const rvmLstCat = cats.slice(0,-1);
     return rvmLstCat;
 }
 function removeFirstCat(name){
